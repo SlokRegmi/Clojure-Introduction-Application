@@ -1,0 +1,85 @@
+; Connecting ...
+; Reading port file: file:///d%3A/Clojure%20Project/my-playground/.nrepl-port ...
+; No nrepl port file found.
+; Connect aborted.
+; Connecting using "Leiningen" project type.
+; Connecting ...
+; Reading port file: file:///d%3A/Clojure%20Project/my-playground/.nrepl-port ...
+; No nrepl port file found.
+; Hooking up nREPL sessions on port 52833...
+; Connected session: clj, port: 52833
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+#'my-playground.core/bank-account
+clj꞉my-playground.core꞉> 
+#'user/bank-account
+clj꞉user꞉> 
+{:holder "Inap", :balance 1000}
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\src\my_playground\core.clj:19:1).
+; Unable to resolve symbol: process-withdrawal in this context
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\src\my_playground\core.clj:19:1).
+; Unable to resolve symbol: process-withdrawal in this context
+clj꞉user꞉> 
+#'user/process-withdrawal
+clj꞉user꞉> 
+; Transaction Failed: Insufficient funds!
+nil
+clj꞉user꞉> 
+; Success! New balance: 900
+nil
+clj꞉user꞉> 
+460
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\src\my_playground\core.clj:5:1).
+; Unable to resolve symbol: generate_randomUUID in this context
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\src\my_playground\core.clj:5:1).
+; Unable to resolve symbol: generate_randomUUID in this context
+clj꞉user꞉> 
+java.util.UUID
+clj꞉user꞉> 
+#'user/generate_randomUUID
+clj꞉user꞉> 
+#'user/generate_randomUUID
+clj꞉user꞉> 
+"TX-0e2c4603-8a2e-445f-9941-9ce2bceb1a22"
+clj꞉user꞉> 
+#'user/accounts
+clj꞉user꞉> 
+#'user/accounts
+clj꞉user꞉> 
+; Syntax error macroexpanding clojure.core/defn at (d:\Clojure Project\my-playground\src\my_playground\core.clj:4:1).
+; [id] - failed: simple-symbol? at: [:fn-name] spec: :clojure.core.specs.alpha/defn-args
+clj꞉user꞉> 
+#'user/get-account
+clj꞉user꞉> 
+#'user/get-account
+clj꞉user꞉> 
+#'user/transfer
+clj꞉user꞉> 
+#'user/transfer
+clj꞉user꞉> 
+#'user/transfer
+clj꞉user꞉> 
+500
+clj꞉user꞉> 
+{1 {:name "Inap", :balance 5000}, 2 {:name "Aarav", :balance 1200}}
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Syntax error compiling at (d:\Clojure Project\my-playground\project.clj:1:1).
+; Unable to resolve symbol: defproject in this context
+clj꞉user꞉> 
+; Jacking in...
+; TypeError: Cannot read properties of undefined (reading 'label')
+; Aborting jack-in.
