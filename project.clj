@@ -13,7 +13,7 @@
                  [hiccup "1.0.5"]
                  [com.github.seancorfield/next.jdbc "1.3.955"]
                  [org.xerial/sqlite-jdbc "3.45.3.0"]]
-  :main ^:skip-aot test-app.core
+  :main ^:skip-aot my-playground.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
