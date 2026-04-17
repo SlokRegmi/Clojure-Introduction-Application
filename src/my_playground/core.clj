@@ -9,7 +9,7 @@
   (:gen-class))
 
 (defn- session-secret []
-  (let [s (or (System/getenv "SESSION_SECRET") "dev-secret-change-me-in-prod!!")]
+  (let [s (or (System/getenv "SESSION_SECRET") "mysecretkey12345")]
     (.getBytes s "UTF-8")))
 
 (def app
